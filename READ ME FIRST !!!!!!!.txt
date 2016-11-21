@@ -4,10 +4,11 @@
 
 T.I.P.S.
 
-1.	Please "Comment" important lines of code
-2.	Explain the working in short in 'help' file
-3.	Explain flow and execution
-4.	Include any and all extra file if used and explain their used
+1.  Please create a new branchand dont touch the master branch
+2.	Please "Comment" important lines of code
+3.	Explain the working in short in 'help' file
+4.	Explain flow and execution
+5.	Include any and all extra file if used and explain their used
 
 
 
