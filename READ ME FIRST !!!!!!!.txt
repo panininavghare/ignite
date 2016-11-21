@@ -1,0 +1,16 @@
+||||I.G.N.I.T.E.||||
+
+
+
+T.I.P.S.
+
+1.	Please "Comment" important lines of code
+2.	Explain the working in short in 'help' file
+3.	Explain flow and execution
+4.	Include any and all extra file if used and explain their used
+
+
+
+
+
+THANK YOU for following the above tips
