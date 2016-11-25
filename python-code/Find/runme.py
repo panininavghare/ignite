@@ -1,7 +1,7 @@
 class run:
 
     def __init__(self):
-        print("FIND_IT_First... Brought to you by Ashutosh K...\nExclusively for CONCAT() : Clubbing the Derivatives of Computing")
+        print("FIND_IT_First")
         print("\n\n\n\n\n\n\n\n***WARNING***\nDo not hit Enter key without entering any value !!"+"\nActually i was gonna add an exception for that but it was so boring.. :P\nSo please don't try that !!!")
         pc=input("\nEnter your Pc No. to continue: ")
     def check(self):
@@ -69,7 +69,7 @@ class run:
     def next5(self):
         self.q=int(input("\nEnter the last element here: "))
         if self.q== 4181:
-            print("\n\nHow bout i help you.\nEnter the following text in the CMD window without *\n*tsjtsjjnlmy* hit enter.\nNow comes the fun part.\n\nDo you remember something ? \nEnter that as next value in CMD")
+            print("\n\nHow bout i help you.\nEnter the following text in the CMD(i.e. the decrypt.py) window without *\n*tsjtsjjnlmy* hit enter.\nNow comes the fun part.\n\nDo you remember something ? \nEnter that as next value in CMD")
             print("\nWhat are you waiting for ? Go find it !!!!")
             self.next6()
 
