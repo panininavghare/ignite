@@ -1,0 +1,20 @@
+open interface
+
+notedown id1
+
+goto next tab logicq
+
+write id1
+
+notedown id2
+
+goto next tab lyricq
+
+write id2
+
+notedown id3
+
+goto next tab result
+
+put all 3 ids  and  supervisors id
+

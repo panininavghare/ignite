@@ -1,0 +1,71 @@
+<html>
+<head>
+<script>
+
+function res()
+{
+var a1=document.getElementById("id1").value;
+var a2=document.getElementById("id2").value;
+var a3=document.getElementById("id3").value;
+var a4=0;
+var a5=0;
+var a6=0;
+var a7=0;
+var a8=document.getElementById("id4").value;
+
+
+if(a1!="" && a2!="" && a3!="" && a8!="c101")
+{
+alert("your task is done Call the supervisor .............................!");
+
+}
+
+
+else if(a1!="" && a2!="" && a3!="" && a8=="c101")
+{
+a4= (a1-100099)/60;
+a5= (a2-150099)/60;
+a6= (a3-100019)/76;
+
+a7=(a4+a5+a6)/3;
+
+document.getElementById("n1").value=a4;
+document.getElementById("n2").value=a5;
+document.getElementById("n3").value=a6;
+document.getElementById("num").value=a7;
+}
+
+else if(a1=="" && a2=="" && a3=="")
+{
+alert("please insert proper id only");
+}
+
+}
+
+</script>
+</head>
+
+
+<body background="back4.png">
+<font color="white">
+<h2 align="center">Enter your name :<input autocomplete="off"></h2></br></br>
+<h2 align="center">Enter your contact details :<input autocomplete="off"></h2></br></br>
+<h2 align="center">enter id1 :   pc-<input id="id1" autocomplete="off"></h2></br></br>
+<h2 align="center">enter id2 :   pc-<input id="id2" autocomplete="off"></h2></br></br>
+<h2 align="center">enter id3 :   pc-<input id="id3" autocomplete="off"></h2></br></br>
+<h2 align="center">superwiser id :   pc-<input id="id4" autocomplete="off"></h2></br></br>
+ 
+
+<br><br>
+<a align="center"><button onclick="res()"><font size="4">Result</font></button>
+
+<h2>total result :<input id="num"  autocomplete="off"></h2>
+</br>
+
+<h2>level 1 marks:<input id="n1"  autocomplete="off"></h2>
+&nbsp;&nbsp;&nbsp;&nbsp;<h2>level 2 marks :<input id="n2"  autocomplete="off"></h2>
+&nbsp;&nbsp;&nbsp;&nbsp;<h2>level 3 marks :<input id="n3"  autocomplete="off"></h2>
+</font>
+
+</body>
+</html>
