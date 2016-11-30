@@ -1,101 +1,118 @@
+import time
 class run:
-
-    def __init__(self):
-        print("FIND_IT_First")
-        print("\n\n\n\n\n\n\n\n***WARNING***\nDo not hit Enter key without entering any value !!"+"\nActually i was gonna add an exception for that but it was so boring.. :P\nSo please don't try that !!!")
-        pc=input("\nEnter your Pc No. to continue: ")
-    def check(self):
-        self.lol=int(input("\nNow enter the answer of 6/2(2+1): "))
-        if self.lol==9:
-            print("I must say you do know Math.")
-            self.next()
-            
-        else:
-            print("Your basics of Math are simply weak. Try Again")
-            self.lol= None
-            self.check()
-
-    def next(self):
-        
-        self.l=int(input("\nNow search for a file on Desktop with name * Solve me * \nThis file is availabe in Python and C++ formats.\n\nEnter the final result here: \n"))
-        if self.l== 68:
-            print("You are getting a hold of this.")
-            print("\nGo to E:\Cat\code.(py/cpp)\nSolve it !!!")
-            self.next1()
-        else:
-            print("Try Again !!!")
-            self.l= None
-            self.next()
-        
-    def next1(self):
-        self.m=int(input("\nEnter the Result here: "))
-
-        if self.m==5:
-                print("Yeah ! you got it right.\n Now keep this in your mind !")
-                print("\nSearch for a file with name * Crack me * on your desktop.\nYou know what to do !")
-                self.next3()
-        else:
-                print("Try Again !!")
-                self.m= None
-                self.next1()
-
-    def next3(self):
-        self.o=int(input("\nTell me the last element of the output: "))
-        if self.o==16:
-            print("\nWell you are a Tough Cookie \nLets see if you can get pass through this")
-            self.next4()
-        else:
-            print("\nNope that's not what i was asking for. Why don't you try again")
-            self.o= None
-            self.next3()
-
-    def next4(self):
-
-        self.p=int(input("\n\nEnter an Armstrong number of your choice: "))
-        sum = 0
-        temp = self.p
-        while temp > 0:
-            digit = temp % 10
-            sum += digit ** 3
-            temp //= 10
-        if self.p == sum:
-            print("\nCongrats you made it so far.\nNow comes the real test\nGo to  D:\Concat\code.py (py/cpp)")
-            self.next5()
-        else:
-            print("Nah. Try Again")
-            self.next4()
- 
-
-    def next5(self):
-        self.q=int(input("\nEnter the last element here: "))
-        if self.q== 4181:
-            print("\n\nHow bout i help you.\nEnter the following text in the CMD(i.e. the decrypt.py) window without *\n*tsjtsjjnlmy* hit enter.\nNow comes the fun part.\n\nDo you remember something ? \nEnter that as next value in CMD")
-            print("\nWhat are you waiting for ? Go find it !!!!")
-            self.next6()
-
-        else:
-            print("Come on you can't give up now. Keep trying")
-            self.next5()
-
-    def next6(self): 
-            self.n=int(input("\nDid You Find it ?\n1.Yes\t2.No\n"))
-            if self.n==1:
-                n1=int(input("\n\nEnter the number on it: "))
-
-                if n1==17665:
-                    print("Awesome !")
-                    print("Now Call the one who's supervising this event.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nP.S. YOU WON :P")
-                    x=input()
-                else:
-                    print("Are you trying to guess this ? You need to go and Find it First !")
-                    self.next6()
-            elif self.n==2:
-                print("Come on Try Harder !!!")
-                self.next6()
+    def __init__(self):                                             #initialization statement
+        print("FIND IT FIRST 2.0....Bought to you by. Technical Team\n\nExclusively for IGNITE")
+        print("*\n*\nUnderstand clues in every level, using your logic and knowledge to win the game")
+        print("*\n*\nLets start with a warmup")
+        time.sleep(1)
+        self.level11()
+    def level11(self):                                              #Level-1 Sublevel-1
+        print("*\n*\nAnswer this simple Math question")
+        print("*\n*\n*\n*\n*\n*\n*\n*\n")
+        time.sleep(1)
+        try:                                                        #Exception/Error Handling Start
+            a=int(input("What is the answer of 6+2x3x5/2-10 :"))
+            if a==50:
+                print("*\n*\n*\nNow lets test your Logic \n Read the question and answer carefully")
+                self.level12()
             else:
-                print("All i can say is Try Again !!!")
-                self.next6()
-
-            
-oo=run()
-oo.check()
+                print("Sorry your Math is weak")
+                time.sleep(1)
+                self.level11()
+        except:                                                     #Exception/Error Handling End
+            print("SORRY\nTry Again")
+            time.sleep(1)
+            self.level11()
+    def level12(self):                                              #level-1 Sublevel-2
+        print("*\n*\n*\n")
+        print("Mr. & Mrs. Mustard have 4 Daughters,\nEach Daughter has 1 Brother")
+        time.sleep(1)
+        try:                                                        #Exception/Error Handling Start
+            b=int(input("How many People in Mustard Family?"))
+            if b==7:
+                print("Good, But it's Gonna Get Tough Ahead")
+                time.sleep(1)
+                self.level13()
+            else:
+                print("Sorry your Logic is weak")
+                time.sleep(1)
+                self.level12()
+        except:                                                     #Exception/Error Handling End
+            print("SORRY\nTry Again")
+            time.sleep(1)
+            self.level12()
+    def level13(self):                                              #Level-1 Sublevel-3 Factorial program 9!=362880
+        print("*\n*\nGo to the E drive of this computer,\n& locate a folder names uses,\nthere is program named solveme in python and c++ language")
+        time.sleep(1)
+        try:                                                        #Exception/Error Handling Start
+            c=int(input("So whats the Answer?"))
+            if c==362880:
+                print("Good\nNow to test your Skills")
+                time.sleep(1)
+                self.level21()
+            else:
+                print("Sorry that is not what i want")
+                self.level13()
+        except:                                                     #Exception/Error Handling End
+            print("SORRY\nTry Again")
+            self.level13()
+        
+    def level21(self):                                              #Level-2 Sublevel-1
+        print("\n\n\nThis is the test of your Technical Knowledge")
+        print("*\n*\n*\n")
+        print("I am a Computer,\nI only inderstand 1's and 0's")
+        time.sleep(1)
+        try:                                                    #Exception/Error Handling Start
+            d=int(input("What is 0101x0011"))
+            if d==1111:
+                print(":) AWW! You really understand me\n Lets go ahead")
+                time.sleep(1)
+                self.level22()
+            else:
+                print(":( You dont Understand me")
+                time.sleep(1)
+                self.level21()
+        except:                                                 #Exception/Error Handling End
+            print("SORRY\nTry Again")
+            time.sleep(1)
+            self.level21()
+    def level22(self):                                              #Level-2 Sublevel-2 Html page containig logic circuit diagram the answer is 010
+        print("*\n*\nNow go to D drive of this computer,\n& locate a folder name counterstrike1.6,\n there is a HTML page there named justcause.html,\n open it and give me the answer")
+        time.sleep(1)
+        try:                                                    #Exception/Error Handling Start
+            e=input("What is the answer")
+            if e=="":
+                print("Sorry tryagain111")
+                time.sleep(1)
+                self.level22()
+            elif e=='010':
+                print("Your Logic is good\nLet's proceed")
+                time.sleep(1)
+                self.level23()
+            else:
+                print("Sorry\nTry Again 1")
+                time.sleep(1)
+                self.level22()
+        except Exception:                                       #Exception/Error Handling End
+            print("SORRY\nTry Again")
+            time.sleep(1)
+            self.level23()
+    def level23(self):                                              #Level-2 Sublevel-3 Html page The partcipant needs to see source code
+        print("*\n*\nI am very weak at games will you give me a HINT?")
+        print("Don't worry,\n I have one for you")
+        print("Go to Desktop of this computer,\n& locate a folder named NeW FoLDeRr,\n there is a Html page ther named gogogo.html,\nopen it and give me my HINT")
+        f=input("So what's my HINT:")
+        if f=="":                                                   #Exception/Error Handling Start
+            print("Try Again")
+            self.level23()                                          #Exception/Error Handling End
+        if f=="anything":
+            print("Thank you, You are a Life Saver")
+            time.sleep(1)
+            self.level23()
+        else:
+            print("Are you guessing?\nDo it seriously")
+            time.sleep(1)
+            self.level23()
+q=run()
+#The code uploaded is incomplete because the level 3 is under progress
+#The 3rd Level will be uploaded soon
